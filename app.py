@@ -227,7 +227,7 @@ st.subheader("🧾 Detection Logs")
 if st.button("Refresh Logs"):
     df_logs = pd.read_sql_query("SELECT * FROM detections ORDER BY id DESC LIMIT 20", conn)
     st.dataframe(df_logs)
-=======
+# =======
 import streamlit as st
 import tempfile
 import os
