@@ -456,4 +456,4 @@ st.subheader("🧾 Detection Logs")
 if st.button("Refresh Logs"):
     df_logs = pd.read_sql_query("SELECT * FROM detections ORDER BY id DESC LIMIT 20", conn)
     st.dataframe(df_logs)
->>>>>>> 9a7b3cca41ab18eaab5e5d676fc210e6df05616e
+
