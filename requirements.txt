@@ -1,7 +1,4 @@
-# <<<<<<< HEAD
 streamlit
-opencv-python-headless
 ultralytics
+opencv-python-headless
 pandas
-
-# >>>>>>> 9a7b3cca41ab18eaab5e5d676fc210e6df05616e
