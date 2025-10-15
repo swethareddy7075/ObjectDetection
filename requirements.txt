@@ -1,13 +1,7 @@
 # <<<<<<< HEAD
 streamlit
-opencv-python
+opencv-python-headless
 ultralytics
 pandas
-numpy
-# =======
-streamlit
-opencv-python
-ultralytics
-pandas
-numpy
+
 # >>>>>>> 9a7b3cca41ab18eaab5e5d676fc210e6df05616e
