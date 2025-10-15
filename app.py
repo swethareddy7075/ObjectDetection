@@ -253,8 +253,10 @@ st.sidebar.header("Settings ⚙️")
 
 model_choice = st.sidebar.selectbox(
     "Select Model",
-    ["YOLOv8n (Fast, Light)", "YOLOv8s (More Accurate)"]
+    ["YOLOv8n (Fast, Light)", "YOLOv8s (More Accurate)"],
+    key="model_select"
 )
+
 confidence = st.sidebar.slider("Detection Confidence", 0.1, 1.0, 0.5, 0.05)
 
 alert_objects = st.sidebar.multiselect(
